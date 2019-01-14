@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6984BAAE21EBBC9200E6D3D5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6984BAAD21EBBC9200E6D3D5 /* main.c */; };
+		699C02E421EBC08400EEDBC3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 699C02E321EBC08400EEDBC3 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6984BAA821EBBC9200E6D3D5 /* CopyFiles */ = {
+		699C02DE21EBC08400EEDBC3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6984BAAA21EBBC9200E6D3D5 /* computer-science */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "computer-science"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6984BAAD21EBBC9200E6D3D5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		699C02E021EBC08400EEDBC3 /* fill-dynamic-arr-random-nums */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "fill-dynamic-arr-random-nums"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699C02E321EBC08400EEDBC3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6984BAA721EBBC9200E6D3D5 /* Frameworks */ = {
+		699C02DD21EBC08400EEDBC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6984BAA121EBBC9200E6D3D5 = {
+		699C02D721EBC08400EEDBC3 = {
 			isa = PBXGroup;
 			children = (
-				6984BAAC21EBBC9200E6D3D5 /* computer-science */,
-				6984BAAB21EBBC9200E6D3D5 /* Products */,
+				699C02E221EBC08400EEDBC3 /* fill-dynamic-arr-random-nums */,
+				699C02E121EBC08400EEDBC3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6984BAAB21EBBC9200E6D3D5 /* Products */ = {
+		699C02E121EBC08400EEDBC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6984BAAA21EBBC9200E6D3D5 /* computer-science */,
+				699C02E021EBC08400EEDBC3 /* fill-dynamic-arr-random-nums */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6984BAAC21EBBC9200E6D3D5 /* computer-science */ = {
+		699C02E221EBC08400EEDBC3 /* fill-dynamic-arr-random-nums */ = {
 			isa = PBXGroup;
 			children = (
-				6984BAAD21EBBC9200E6D3D5 /* main.c */,
+				699C02E321EBC08400EEDBC3 /* main.c */,
 			);
-			path = "computer-science";
+			path = "fill-dynamic-arr-random-nums";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6984BAA921EBBC9200E6D3D5 /* computer-science */ = {
+		699C02DF21EBC08400EEDBC3 /* fill-dynamic-arr-random-nums */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6984BAB121EBBC9200E6D3D5 /* Build configuration list for PBXNativeTarget "computer-science" */;
+			buildConfigurationList = 699C02E721EBC08400EEDBC3 /* Build configuration list for PBXNativeTarget "fill-dynamic-arr-random-nums" */;
 			buildPhases = (
-				6984BAA621EBBC9200E6D3D5 /* Sources */,
-				6984BAA721EBBC9200E6D3D5 /* Frameworks */,
-				6984BAA821EBBC9200E6D3D5 /* CopyFiles */,
+				699C02DC21EBC08400EEDBC3 /* Sources */,
+				699C02DD21EBC08400EEDBC3 /* Frameworks */,
+				699C02DE21EBC08400EEDBC3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "computer-science";
-			productName = "computer-science";
-			productReference = 6984BAAA21EBBC9200E6D3D5 /* computer-science */;
+			name = "fill-dynamic-arr-random-nums";
+			productName = "fill-dynamic-arr-random-nums";
+			productReference = 699C02E021EBC08400EEDBC3 /* fill-dynamic-arr-random-nums */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6984BAA221EBBC9200E6D3D5 /* Project object */ = {
+		699C02D821EBC08400EEDBC3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Eli Levit";
 				TargetAttributes = {
-					6984BAA921EBBC9200E6D3D5 = {
+					699C02DF21EBC08400EEDBC3 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 6984BAA521EBBC9200E6D3D5 /* Build configuration list for PBXProject "computer-science" */;
+			buildConfigurationList = 699C02DB21EBC08400EEDBC3 /* Build configuration list for PBXProject "fill-dynamic-arr-random-nums" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 6984BAA121EBBC9200E6D3D5;
-			productRefGroup = 6984BAAB21EBBC9200E6D3D5 /* Products */;
+			mainGroup = 699C02D721EBC08400EEDBC3;
+			productRefGroup = 699C02E121EBC08400EEDBC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6984BAA921EBBC9200E6D3D5 /* computer-science */,
+				699C02DF21EBC08400EEDBC3 /* fill-dynamic-arr-random-nums */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6984BAA621EBBC9200E6D3D5 /* Sources */ = {
+		699C02DC21EBC08400EEDBC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6984BAAE21EBBC9200E6D3D5 /* main.c in Sources */,
+				699C02E421EBC08400EEDBC3 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6984BAAF21EBBC9200E6D3D5 /* Debug */ = {
+		699C02E521EBC08400EEDBC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		6984BAB021EBBC9200E6D3D5 /* Release */ = {
+		699C02E621EBC08400EEDBC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +236,7 @@
 			};
 			name = Release;
 		};
-		6984BAB221EBBC9200E6D3D5 /* Debug */ = {
+		699C02E821EBC08400EEDBC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -244,7 +244,7 @@
 			};
 			name = Debug;
 		};
-		6984BAB321EBBC9200E6D3D5 /* Release */ = {
+		699C02E921EBC08400EEDBC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -255,25 +255,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6984BAA521EBBC9200E6D3D5 /* Build configuration list for PBXProject "computer-science" */ = {
+		699C02DB21EBC08400EEDBC3 /* Build configuration list for PBXProject "fill-dynamic-arr-random-nums" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6984BAAF21EBBC9200E6D3D5 /* Debug */,
-				6984BAB021EBBC9200E6D3D5 /* Release */,
+				699C02E521EBC08400EEDBC3 /* Debug */,
+				699C02E621EBC08400EEDBC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6984BAB121EBBC9200E6D3D5 /* Build configuration list for PBXNativeTarget "computer-science" */ = {
+		699C02E721EBC08400EEDBC3 /* Build configuration list for PBXNativeTarget "fill-dynamic-arr-random-nums" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6984BAB221EBBC9200E6D3D5 /* Debug */,
-				6984BAB321EBBC9200E6D3D5 /* Release */,
+				699C02E821EBC08400EEDBC3 /* Debug */,
+				699C02E921EBC08400EEDBC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6984BAA221EBBC9200E6D3D5 /* Project object */;
+	rootObject = 699C02D821EBC08400EEDBC3 /* Project object */;
 }

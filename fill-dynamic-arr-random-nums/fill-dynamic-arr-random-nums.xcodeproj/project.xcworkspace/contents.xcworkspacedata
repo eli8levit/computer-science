@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:computer-science.xcodeproj">
+      location = "self:fill-dynamic-arr-random-nums.xcodeproj">
    </FileRef>
 </Workspace>
